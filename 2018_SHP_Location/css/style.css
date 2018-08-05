@@ -16,8 +16,10 @@ p {
 button {
     color: #156bc1;
     padding: 0;
+    border: none;
+    background: none;
     font-size: 12px;
-    line-height: 16px;
+    line-height: 16px;  
 }
 
 .container {
@@ -229,15 +231,13 @@ section {
 
 .green {
     color: #3e6e00;
-    font-size: 15px;
-    line-height: 15px;
+    font-size: 16px;
+    line-height: 16px;
     display: inline-block;
 }
 
 .satisfection {
     color: #7e7e7e;
-    font-size: 11px;
-    line-height: 15px;
     display: inline-block;
 }
 
