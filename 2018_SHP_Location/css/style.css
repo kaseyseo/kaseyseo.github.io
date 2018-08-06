@@ -2,7 +2,7 @@ body {
     margin: 0 auto;
     color: #333;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
+    font-size:   13px;
     line-height: 17px;
     max-width: 414px;
     box-sizing: border-box;
@@ -53,6 +53,8 @@ section {
 
 .scroll {
     padding: 0;
+    webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
 }
 
 .scroll-card {
@@ -71,6 +73,8 @@ section {
     margin: 0 2px 0 0;
     border-radius: 4px;
     display: inline-block;
+    webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
 }
 
 
